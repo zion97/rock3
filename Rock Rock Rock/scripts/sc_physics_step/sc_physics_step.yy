@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "physics",
-    "path": "folders/Scripts/physics.yy",
+    "name": "object setting",
+    "path": "folders/Scripts/object setting.yy",
   },
 }

@@ -5,12 +5,12 @@
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_physics_parent","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"propertyId":{"name":"create_sc","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"value":"sc_dummy",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_physics_parent","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"propertyId":{"name":"create_sc","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"value":"sc_player_create",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_physics_parent","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"propertyId":{"name":"step_sc","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"value":"sc_player_step",},
   ],
   "parent": {
-    "name": "ob_player",
-    "path": "folders/Objects/ob_player.yy",
+    "name": "player object",
+    "path": "folders/Objects/player object.yy",
   },
   "parentObjectId": {
     "name": "obj_physics_parent",
