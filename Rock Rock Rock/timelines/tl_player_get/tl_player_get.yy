@@ -15,7 +15,7 @@
     {"resourceType":"GMMoment","resourceVersion":"1.0","name":"","evnt":{"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":54,"eventType":0,"isDnD":false,},"moment":54,},
   ],
   "parent": {
-    "name": "Timelines",
-    "path": "folders/Timelines.yy",
+    "name": "player timelines",
+    "path": "folders/Timelines/player timelines.yy",
   },
 }

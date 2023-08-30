@@ -7,6 +7,7 @@ with (obj_player_head)
 	{
 		speed_x	= other.image_xscale * 4;
 		speed_y = -5;
+		image_xscale = other.image_xscale;
 	}
 }
 
