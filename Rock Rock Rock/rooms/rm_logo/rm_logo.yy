@@ -1,8 +1,8 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "r_logo",
-  "creationCodeFile": "rooms/r_logo/RoomCreationCode.gml",
+  "name": "rm_logo",
+  "creationCodeFile": "rooms/rm_logo/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

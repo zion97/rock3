@@ -16,8 +16,14 @@ function sc_physics_step()
 	speed_y += grav_index;
 	
 	//오브젝트와 바닥 충돌
-	if ( ( _bottom1 == 2 && _bottom2 != 2 ) || _bottom1 == 3 ) is_jump = false;
-	else is_jump = true;
+	if ( ( _bottom1 == 2 && _bottom2 != 2 ) || _bottom1 == 3 ) 
+	{
+		is_jump = false;
+	}
+	else 
+	{
+		is_jump = true;
+	}
 
 	if ( !is_jump && speed_y > 0 ) {
 		speed_y = 0;
@@ -40,4 +46,6 @@ function sc_physics_step()
 	
 	x += speed_x;
 	y += speed_y;
+	
+	if (!is_jump)	speed_x = 0;
 }

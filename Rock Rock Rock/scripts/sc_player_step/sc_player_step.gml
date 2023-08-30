@@ -2,21 +2,33 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_player_step()
 {
-	sc_move_stand(spr_player_stand, spr_player_jump);
-	
-	if (keyboard_check(vk_left))
+	if (act_index)
 	{
-		dir = -1;
-		sc_move_walk(spr_player_run, 3, spr_player_jump);
+		sc_player_stand();
+		if (keyboard_check(vk_left))
+		{
+			dir = -1;
+			sc_player_walk();
+		}
+		if (keyboard_check(vk_right))
+		{
+			dir = 1;
+			sc_player_walk();
+		}
+		if (keyboard_check_pressed(ord("C")))
+		{
+			speed_y = -5;
+		}
+		
+		if (keyboard_check_pressed(ord("X")))
+		{
+			sc_player_throw();
+			sc_move_player_get();
+		}
 	}
-	if (keyboard_check(vk_right))
+	else
 	{
-		dir = 1;
-		sc_move_walk(spr_player_run, 3, spr_player_jump);
+		//act_index();
 	}
-	
-	if (keyboard_check_pressed(ord("C")))
-	{
-		speed_y = -5;
-	}
+	col_item = -1;
 }

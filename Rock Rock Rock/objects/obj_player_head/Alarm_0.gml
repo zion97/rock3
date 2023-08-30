@@ -4,6 +4,15 @@ with (obj_player)
 {
 	other.x = x;
 	other.y = y;
+	other.is_head = is_head;
+	other.image_xscale = dir;
 }
-
+if (is_head)
+{
+	//visible = true;
+}
+else
+{
+	//visible = false;
+}
 alarm[0] = 1;

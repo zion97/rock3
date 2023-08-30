@@ -4,10 +4,12 @@
   "name": "obj_rock1",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_item_parent","path":"objects/obj_item_parent/obj_item_parent.yy",},"propertyId":{"name":"item_struct","path":"objects/obj_item_parent/obj_item_parent.yy",},"value":"global.rock1_struct",},
+  ],
   "parent": {
-    "name": "player object",
-    "path": "folders/Objects/player object.yy",
+    "name": "head item",
+    "path": "folders/Objects/head item.yy",
   },
   "parentObjectId": {
     "name": "obj_item_parent",

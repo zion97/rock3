@@ -2,7 +2,12 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_player_create()
 {
-	instance_create_depth(x, y, depth+10, obj_player_rock);
+	instance_create_depth(x, y, depth+10, obj_player_head);
 	
-	col_rock = -1;
+	col_item	= -1;
+	get_item	= -1;
+	is_head		= false;
+	
+	act_index	= true;
+	process		= 0;
 }
