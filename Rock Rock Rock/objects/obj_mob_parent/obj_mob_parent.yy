@@ -4,7 +4,9 @@
   "name": "obj_mob_parent",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_physics_parent","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"propertyId":{"name":"create_sc","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"value":"sc_mob_create",},
+  ],
   "parent": {
     "name": "parent object",
     "path": "folders/Objects/parent object.yy",
@@ -28,6 +30,7 @@
   "physicsStartAwake": true,
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"mob_sc","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"sc_dummy","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"behave_sc","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"sc_dummy","varType":5,},
   ],
   "solid": false,
   "spriteId": null,
