@@ -5,6 +5,6 @@ with (obj_player_head)
 {
 	image_index		= other.image_index;
 	sprite_index	= item_struct.index_spr_get;
-	depth			= other.depth - 50;
+	depth			= other.depth - 10;
 	visible			= true;
 }

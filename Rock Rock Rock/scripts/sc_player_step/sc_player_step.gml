@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_player_step()
 {
-	if (act_index)
+	if (act_index == 1)
 	{
 		sc_player_stand();
 		if (keyboard_check(vk_left))

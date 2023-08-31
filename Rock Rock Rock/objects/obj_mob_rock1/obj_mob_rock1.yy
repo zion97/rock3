@@ -4,7 +4,10 @@
   "name": "obj_mob_rock1",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_mob_parent","path":"objects/obj_mob_parent/obj_mob_parent.yy",},"propertyId":{"name":"mob_sc","path":"objects/obj_mob_parent/obj_mob_parent.yy",},"value":"sc_mob_rock1_data",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_mob_parent","path":"objects/obj_mob_parent/obj_mob_parent.yy",},"propertyId":{"name":"behave_sc","path":"objects/obj_mob_parent/obj_mob_parent.yy",},"value":"sc_mob_patrol",},
+  ],
   "parent": {
     "name": "monster",
     "path": "folders/Objects/monster.yy",

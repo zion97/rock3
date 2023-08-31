@@ -4,7 +4,6 @@ function sc_move_stand(_stand_spr, _jump_spr = -1)
 {
 	var _is_jump = false;
 	sprite_index	= _stand_spr;
-	image_xscale	= dir;
 	speed_x			= 0;
 	
 	if (_jump_spr != -1 && is_jump)

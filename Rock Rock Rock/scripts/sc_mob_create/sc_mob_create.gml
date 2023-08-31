@@ -2,5 +2,10 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_mob_create()
 {
+	depth += 30;
 	
+	act_index		= 1;
+	index_var_kind	= 0;
+	
+	mob_sc();
 }

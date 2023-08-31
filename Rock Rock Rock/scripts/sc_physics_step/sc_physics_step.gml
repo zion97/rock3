@@ -4,13 +4,15 @@ function sc_physics_step()
 {
 	var _tile_id	= layer_tilemap_get_id("Tile_Collision");
 	var _bottom1	= tilemap_get_at_pixel(_tile_id, x, bbox_bottom);
-	var _bottom2	= tilemap_get_at_pixel(_tile_id, x, bbox_bottom - 16 );
+	var _bottom2	= tilemap_get_at_pixel(_tile_id, x, bbox_bottom - 8 );
 	var _top		= tilemap_get_at_pixel(_tile_id, x, bbox_top);
-	var _left1		= tilemap_get_at_pixel(_tile_id, bbox_left, bbox_bottom - 16 );
-	var _left2		= tilemap_get_at_pixel(_tile_id, bbox_left, bbox_top + 16 );
-	var _right1		= tilemap_get_at_pixel(_tile_id, bbox_right, bbox_bottom - 16 );
-	var _right2		= tilemap_get_at_pixel(_tile_id, bbox_right, bbox_top + 16 );
+	var _left1		= tilemap_get_at_pixel(_tile_id, bbox_left, bbox_bottom - 8 );
+	var _left2		= tilemap_get_at_pixel(_tile_id, bbox_left, bbox_top + 8 );
+	var _right1		= tilemap_get_at_pixel(_tile_id, bbox_right, bbox_bottom - 8 );
+	var _right2		= tilemap_get_at_pixel(_tile_id, bbox_right, bbox_top + 8 );
 	var _middle		= tilemap_get_at_pixel(_tile_id, x, (bbox_bottom+bbox_top)/2 );
+	
+	image_xscale	= dir;
 	
 	//증력 적용
 	speed_y += grav_index;
@@ -47,5 +49,8 @@ function sc_physics_step()
 	x += speed_x;
 	y += speed_y;
 	
-	if (!is_jump)	speed_x = 0;
+	if (!is_jump)	
+	{
+		speed_x = 0;
+	}
 }

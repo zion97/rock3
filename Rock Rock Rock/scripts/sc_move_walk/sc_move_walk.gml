@@ -4,7 +4,6 @@ function sc_move_walk(_walk_spr, _walk_spd, _jump_spr = -1)
 {
 	var _is_jump = false;
 	sprite_index	= _walk_spr;
-	image_xscale	= dir;
 	speed_x			= _walk_spd * dir;
 	
 	if (_jump_spr != -1 && is_jump)
