@@ -6,6 +6,8 @@ function sc_mob_create()
 	
 	act_index		= 1;
 	index_var_kind	= 0;
+	state			= 0;
+	process			= 0;
 	
 	mob_sc();
 }

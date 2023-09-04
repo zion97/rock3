@@ -3,4 +3,5 @@
 function sc_global_value()
 {
 	global.pad_slot	= 0;
+	global.pause	= 0;
 }

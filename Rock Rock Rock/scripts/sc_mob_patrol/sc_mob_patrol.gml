@@ -8,10 +8,23 @@ function sc_mob_patrol()
 	var _col2		= tilemap_get_at_pixel(_tile_id, _col_index, bbox_top + 8 );
 	var _col3		= tilemap_get_at_pixel(_tile_id, _col_index, bbox_bottom + 8 );
 	
-	if (_col1 == 3 || _col2 == 3 || (_col3 == 0 && !is_jump))
+	if (state == 0)	
 	{
-		dir = dir * -1;
+		sc_move_walk(index_spr_run, index_var_spd);
+		if (_col1 == 3 || _col2 == 3 || (_col3 == 0 && !is_jump))
+		{
+			process	= irandom_range(60, 120);
+			state	= 1;
+		}
 	}
-	
-	sc_move_walk(index_spr_run, index_var_spd);
+	else
+	{
+		sc_move_stand(index_spr_stand);
+		process--;
+		if (process < 0)
+		{
+			dir		= dir * -1;
+			state	= 0;
+		}
+	}
 }
