@@ -9,10 +9,7 @@ function sc_move_player_get()
 		item_struct = other.col_item.item_struct;
 		other.is_head = item_struct.index_var_kind;
 	}
-	act_index	= 2;
-	timeline_index		= tl_player_get;
-	timeline_running	= true;
-	timeline_position	= 0;
+	sc_set_timeline(tl_player_get);
 	instance_destroy(col_item);
 	//act_index	= function() { sc_player_get(); };
 	//process		= 0;

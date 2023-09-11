@@ -3,8 +3,5 @@
 function sc_move_player_die()
 {
 	if (act_index == 0)	return;
-	act_index	= 0;
-	timeline_index		= tl_player_die;
-	timeline_running	= true;
-	timeline_position	= 0;
+	sc_set_timeline(tl_player_die,,0);
 }

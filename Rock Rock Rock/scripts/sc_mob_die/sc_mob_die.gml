@@ -2,10 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_mob_die(){
 	if (act_index == 0)	return;
-	act_index	= 0;
+	sc_set_timeline(index_tl_die,,0);
 	sprite_index		= index_spr_die;
 	image_index			= 0;
-	timeline_index		= index_tl_die;
-	timeline_running	= true;
-	timeline_position	= 0;
 }

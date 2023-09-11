@@ -3,8 +3,5 @@
 function sc_player_throw(){
 	if (is_head == 0)	return;
 	
-	act_index	= 2;
-	timeline_index		= tl_player_throw;
-	timeline_running	= true;
-	timeline_position	= 0;
+	sc_set_timeline(tl_player_throw);
 }
