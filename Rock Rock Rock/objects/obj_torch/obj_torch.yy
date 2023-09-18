@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_terrain_torch",
-    "path": "sprites/spr_terrain_torch/spr_terrain_torch.yy",
+    "name": "spr_ter_torch",
+    "path": "sprites/spr_ter_torch/spr_ter_torch.yy",
   },
   "spriteMaskId": null,
   "visible": true,

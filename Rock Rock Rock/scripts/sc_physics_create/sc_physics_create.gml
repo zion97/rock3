@@ -7,4 +7,5 @@ function sc_physics_create()
 	is_jump		= false;
 	dir			= 1;
 	grav_index	= 0.2;
+	is_tile		= true;
 }

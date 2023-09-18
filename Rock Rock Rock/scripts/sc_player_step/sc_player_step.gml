@@ -17,12 +17,19 @@ function sc_player_step()
 		}
 		if (keyboard_check_pressed(ord("C")))
 		{
-			speed_y = -5;
+			speed_y = -5.5;
 		}
 		
 		if (keyboard_check_pressed(ord("X")))
 		{
-			sc_player_throw();
+			if (keyboard_check(vk_right) || keyboard_check(vk_left) || is_jump)
+			{
+				sc_player_throw();
+			}
+			else
+			{
+				sc_player_put();
+			}
 			sc_move_player_get();
 		}
 	}

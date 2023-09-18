@@ -4,4 +4,6 @@ function sc_global_value()
 {
 	global.pad_slot	= 0;
 	global.pause	= 0;
+	
+	global.sig		= array_create(10, false);
 }
