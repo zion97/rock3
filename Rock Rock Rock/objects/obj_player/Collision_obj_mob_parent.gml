@@ -1,4 +1,4 @@
-/// @description 여기에 설명 삽입
+/// @description 몹 오브젝트와 충돌할 경우
 // 이 에디터에 코드를 작성할 수 있습니다
 if (act_index == 0 || other.act_index == 0)	return;
 

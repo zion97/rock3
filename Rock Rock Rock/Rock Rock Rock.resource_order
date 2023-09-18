@@ -124,6 +124,7 @@
     {"name":"spr_mob_paper1_run","order":1,"path":"sprites/spr_mob_paper1_run/spr_mob_paper1_run.yy",},
     {"name":"spr_mob_rock1_die","order":2,"path":"sprites/spr_mob_rock1_die/spr_mob_rock1_die.yy",},
     {"name":"sc_mob_die","order":4,"path":"scripts/sc_mob_die/sc_mob_die.yy",},
+    {"name":"sc_get_tile","order":4,"path":"scripts/sc_get_tile/sc_get_tile.yy",},
     {"name":"scr_signtest","order":4,"path":"scripts/scr_signtest/scr_signtest.yy",},
     {"name":"sc_player_walk","order":4,"path":"scripts/sc_player_walk/sc_player_walk.yy",},
     {"name":"rm_logo","order":1,"path":"rooms/rm_logo/rm_logo.yy",},
