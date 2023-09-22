@@ -7,3 +7,10 @@ if (global.pause > 0)
 }
 
 
+with (obj_player)
+{
+	if (global.cam_target == 0)
+	{
+		uc_set_target_position(x, y);
+	}
+}

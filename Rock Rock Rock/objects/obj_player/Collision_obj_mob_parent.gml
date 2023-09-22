@@ -4,7 +4,7 @@ if (act_index == 0 || other.act_index == 0)	return;
 
 if (is_head == 0 || is_head == 4)
 {
-	instance_create_depth(x, y, depth-50, obj_ef);
+	//instance_create_depth(x, y, depth-50, obj_ef);
 	sc_move_player_die();
 	global.pause = 20;
 }
@@ -15,7 +15,7 @@ else
 		is_head == 2 && _index_kind == 3 || 
 		is_head == 3 && _index_kind == 1)
 	{
-		instance_create_depth(x, y, depth-50, obj_ef);
+		//instance_create_depth(x, y, depth-50, obj_ef);
 		with(other)
 		{
 			sc_mob_die();
@@ -31,7 +31,7 @@ else
 		is_head == 2 && _index_kind == 1 || 
 		is_head == 3 && _index_kind == 2)
 	{
-		instance_create_depth(x, y, depth-50, obj_ef);
+		//instance_create_depth(x, y, depth-50, obj_ef);
 		sc_move_player_die();
 		global.pause = 20;
 	}

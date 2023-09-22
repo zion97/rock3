@@ -3,5 +3,6 @@
 function sc_move_player_die()
 {
 	if (act_index == 0)	return;
+	instance_create_depth(x, y, depth-50, obj_ef);
 	sc_set_timeline(tl_player_die,,0);
 }

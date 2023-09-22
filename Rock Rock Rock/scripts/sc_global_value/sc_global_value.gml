@@ -6,4 +6,6 @@ function sc_global_value()
 	global.pause	= 0;
 	
 	global.sig		= array_create(10, false);
+	
+	global.cam_target	= 0;
 }
