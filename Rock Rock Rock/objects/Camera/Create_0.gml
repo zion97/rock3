@@ -9,9 +9,12 @@
 // view_width --> Width of the portion of room we will be seeing
 // view_height --> Height of the portion of the room we will be seeing
 
-aspect_ratio = view_width/view_height; // Relation between the windows size and screen size
-port_width = port_height*aspect_ratio; // Width of the window where the game will be drawn
+
+//aspect_ratio = view_width/view_height; // Relation between the windows size and screen size
+aspect_ratio = display_get_height()/display_get_width();
+port_height = port_width*aspect_ratio; // Width of the window where the game will be drawn
 // port_height --> Height of the window where the game will be drawn
+view_height = view_width*aspect_ratio;
 
 display_set_gui_size(port_width, port_height); //  < ------------------------ THIS LINE IS TOTALLY OPTIONAL
 
