@@ -1,8 +1,10 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-alarm[1] = 1;
-
+with (obj_stage_se_control)
+{
+	index_select	= other.stage_index;
+}
 
 
 

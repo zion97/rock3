@@ -2,10 +2,14 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_global_value()
 {
+	global.save_file	= "saveFile";
+	
 	global.pad_slot	= 0;
 	global.pause	= 0;
 	
 	global.sig		= array_create(10, false);
 	
 	global.cam_target	= 0;
+	
+	global.room_buffer	= rm_main;
 }
