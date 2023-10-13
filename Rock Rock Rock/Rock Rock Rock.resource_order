@@ -331,6 +331,7 @@
     {"name":"sc_player_get","order":2,"path":"scripts/sc_player_get/sc_player_get.yy",},
     {"name":"obj_player_light","order":3,"path":"objects/obj_player_light/obj_player_light.yy",},
     {"name":"obj_ef","order":3,"path":"objects/obj_ef/obj_ef.yy",},
+    {"name":"f_basic","order":2,"path":"fonts/f_basic/f_basic.yy",},
     {"name":"sc_player_put","order":7,"path":"scripts/sc_player_put/sc_player_put.yy",},
     {"name":"spr_scissors1_stand","order":4,"path":"sprites/spr_scissors1_stand/spr_scissors1_stand.yy",},
   ],

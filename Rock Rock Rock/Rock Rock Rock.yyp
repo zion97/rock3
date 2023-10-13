@@ -411,6 +411,7 @@
     {"id":{"name":"obj_player_light","path":"objects/obj_player_light/obj_player_light.yy",},},
     {"id":{"name":"obj_ef","path":"objects/obj_ef/obj_ef.yy",},},
     {"id":{"name":"scr_initialize_particle_system","path":"scripts/scr_initialize_particle_system/scr_initialize_particle_system.yy",},},
+    {"id":{"name":"f_basic","path":"fonts/f_basic/f_basic.yy",},},
     {"id":{"name":"sc_player_put","path":"scripts/sc_player_put/sc_player_put.yy",},},
     {"id":{"name":"spr_scissors1_stand","path":"sprites/spr_scissors1_stand/spr_scissors1_stand.yy",},},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},

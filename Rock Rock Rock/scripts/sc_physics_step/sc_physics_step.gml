@@ -5,7 +5,7 @@ function sc_physics_step()
 	image_xscale	= dir;
 	
 	//증력 적용
-	speed_y += grav_index;
+	if (speed_y < 5)	speed_y += grav_index;
 	
 	//오브젝트와 바닥 충돌
 	if ( sc_get_col(x, bbox_bottom) == 1) 

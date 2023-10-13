@@ -3,9 +3,3 @@
 global.room_buffer = rm_stage_select;
 room_goto(rm_stage_select);
 //room_goto(rm_test);
-
-
-
-
-
-
