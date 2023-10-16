@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_mob_parent",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":2,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_physics_parent","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"propertyId":{"name":"create_sc","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"value":"sc_mob_create",},

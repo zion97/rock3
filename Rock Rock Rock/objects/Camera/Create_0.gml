@@ -28,7 +28,7 @@ view_x = primitive_view_x;
 view_y = primitive_view_y;
 
 // Here we apply the size of the window and the surface where we will be drawing the game.
-window_set_size(port_width, port_height);
+//window_set_size(port_width, port_height);
 surface_resize(application_surface, port_width, port_height);
 uc_window_center();
 

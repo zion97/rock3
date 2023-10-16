@@ -33,9 +33,9 @@ function sc_player_step()
 			sc_move_player_get();
 		}
 	}
-	else
+	else if (act_index == -1)
 	{
-		//act_index();
+		sc_player_stand();
 	}
 	col_item = -1;
 }

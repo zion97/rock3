@@ -10,4 +10,5 @@ function sc_mob_create()
 	process			= 0;
 	
 	mob_sc();
+	alarm[11]		= 1;
 }

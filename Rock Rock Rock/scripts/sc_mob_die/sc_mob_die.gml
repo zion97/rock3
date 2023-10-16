@@ -6,4 +6,11 @@ function sc_mob_die(){
 	sc_set_timeline(index_tl_die,,0);
 	sprite_index		= index_spr_die;
 	image_index			= 0;
+	
+	
+	with (obj_stage_control)
+	{
+		index_mob	-= 1;
+		alarm[0]	= 1;
+	}
 }
