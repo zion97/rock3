@@ -7,4 +7,4 @@ uc_set_mode(0);
 is_clear	= false;
 index_mob	= 0;
 
-instance_create_depth(60, 200, 0, obj_mobile_stick);
+//instance_create_depth(60, 200, 0, obj_mobile_stick);
