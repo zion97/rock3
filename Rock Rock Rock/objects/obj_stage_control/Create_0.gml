@@ -7,4 +7,11 @@ uc_set_mode(0);
 is_clear	= false;
 index_mob	= 0;
 
-//instance_create_depth(60, 200, 0, obj_mobile_stick);
+var _ui_y	= uc_get_view_height() - 50;
+
+instance_create_depth(80, _ui_y, 0, obj_mobile_stick);
+
+with (obj_mobile_button)
+{
+	alarm[0] = 1;
+}

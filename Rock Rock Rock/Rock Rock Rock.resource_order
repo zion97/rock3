@@ -333,6 +333,7 @@
     {"name":"uc_wrap","order":6,"path":"scripts/uc_wrap/uc_wrap.yy",},
     {"name":"uc_get_bars_color","order":1,"path":"scripts/uc_get_bars_color/uc_get_bars_color.yy",},
     {"name":"uc_get_view_width","order":4,"path":"scripts/uc_get_view_width/uc_get_view_width.yy",},
+    {"name":"obj_mobile_button","order":7,"path":"objects/obj_mobile_button/obj_mobile_button.yy",},
     {"name":"spr_rock1_stand","order":1,"path":"sprites/spr_rock1_stand/spr_rock1_stand.yy",},
     {"name":"uc_get_y","order":3,"path":"scripts/uc_get_y/uc_get_y.yy",},
     {"name":"uc_window_center","order":4,"path":"scripts/uc_window_center/uc_window_center.yy",},

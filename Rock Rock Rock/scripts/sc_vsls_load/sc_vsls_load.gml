@@ -4,7 +4,10 @@ function sc_vsls_load()
 {
 	VSLS_File_Load(global.save_file);
 	
-	global.index_clear = sc_vsls_define_value("index_clear", 0);
+	global.index_clear	= sc_vsls_define_value("index_clear", 0);
+	
+	//global.mobile_dir	= sc_vsls_define_value("mobile_dir", 0);
+	global.mobile_dir	= 1;
 	
 	VSLS_File_Save(global.save_file);
 }
