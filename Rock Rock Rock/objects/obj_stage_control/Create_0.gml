@@ -7,9 +7,9 @@ uc_set_mode(0);
 is_clear	= false;
 index_mob	= 0;
 
-var _ui_y	= uc_get_view_height() - 50;
-
-instance_create_depth(80, _ui_y, 0, obj_mobile_stick);
+instance_create_depth(0, 0, 0, obj_mobile_stick);
+instance_create_depth(0, 0, 0, obj_mobile_jump);
+instance_create_depth(0, 0, 0, obj_mobile_get);
 
 with (obj_mobile_button)
 {

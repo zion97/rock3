@@ -5,15 +5,22 @@ point_x = x;
 
 if (!is_active)
 {
-	m_index = sc_mobile_key();
+	global.key[0]	= 0;
+	global.key[1]	= 0;
+	m_index = sc_mobile_stick();
 	if (m_index != -1)
 	{
 		is_active = true;
+		x	= device_mouse_x_to_gui(m_index);
+		y	= device_mouse_y_to_gui(m_index);
+		index_alp	= 0.8;
 	}
 }
 if (!device_mouse_check_button(m_index, mb_left))
 {
-	is_active = false;
+	is_active	= false;
+	alarm[0]	= 1;
+	index_alp	= 0.4;
 }
 
 if (is_active)
@@ -27,7 +34,20 @@ if (is_active)
 	
 	if (_dist > 20)
 	{
-		
+		if (x > _mouse_x)
+		{
+			global.key[1]	= 0;
+			
+			if (global.key[0] == 0)			global.key[0]	= 1;
+			else if (global.key[0] == 1)	global.key[0]	= 2;
+		}
+		else if (x < _mouse_x)
+		{
+			global.key[0]	= 0;
+			
+			if (global.key[1] == 0)			global.key[1]	= 1;
+			else if (global.key[1] == 1)	global.key[1]	= 2;
+		}
 	}
 	if (_dist > 50)
 	{

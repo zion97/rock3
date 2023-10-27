@@ -2,34 +2,37 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 참조
 function sc_player_step()
 {
+	if (!is_jump)
+	{
+		can_jump	= true;
+	}
+		
 	if (act_index == 1)
 	{
 		sc_player_stand();
-		if (keyboard_check(vk_left))
+		if (sc_input(0, 1))
 		{
 			dir = -1;
 			sc_player_walk();
 		}
-		if (keyboard_check(vk_right))
+		if (sc_input(1, 1))
 		{
 			dir = 1;
 			sc_player_walk();
 		}
-		if (keyboard_check_pressed(ord("C")))
+		if (sc_input(2, 0))
 		{
-			speed_y = -5.5;
+			if (can_jump)
+			{
+				speed_y		= -5.5;
+				y			-= 5.5;
+				can_jump	= false;
+			}
 		}
 		
-		if (keyboard_check_pressed(ord("X")))
+		if (sc_input(3, 0))
 		{
-			if (keyboard_check(vk_right) || keyboard_check(vk_left) || is_jump)
-			{
-				sc_player_throw();
-			}
-			else
-			{
-				sc_player_put();
-			}
+			sc_player_put();
 			sc_move_player_get();
 		}
 	}

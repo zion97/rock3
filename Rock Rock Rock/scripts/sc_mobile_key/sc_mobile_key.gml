@@ -28,3 +28,35 @@ function sc_mobile_key()
 	
 	return -1;
 }
+
+function sc_mobile_stick()
+{
+	if device_mouse_check_button_pressed(0, mb_left)
+	{
+	    if (device_mouse_x_to_gui(0) > (0 + global.mobile_dir*320) 
+			&& device_mouse_x_to_gui(0) < (320 + global.mobile_dir*320))
+		{
+			return 0;
+		}
+	}
+	
+	if device_mouse_check_button_pressed(1, mb_left)
+	{
+	    if (device_mouse_x_to_gui(1) > (0 + global.mobile_dir*320) 
+			&& device_mouse_x_to_gui(1) < (320 + global.mobile_dir*320))
+		{
+			return 1;
+		}
+	}
+	
+	if device_mouse_check_button_pressed(2, mb_left)
+	{
+	    if (device_mouse_x_to_gui(2) > (0 + global.mobile_dir*320) 
+			&& device_mouse_x_to_gui(2) < (320 + global.mobile_dir*320))
+		{
+			return 2;
+		}
+	}
+	
+	return -1;
+}

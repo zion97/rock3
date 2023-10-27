@@ -11,6 +11,21 @@ if (index_mob <= 0)
 		speed_y				= 0;
 	}
 	is_clear	= true;
+	
+	if (global.index_clear == global.stage_index)
+	{
+		global.index_clear++;
+		sc_vsls_save_value("index_clear", global.index_clear);
+	}
+	
+	instance_create_depth(0, 0, 0, obj_clear_retry);
+	instance_create_depth(0, 0, 0, obj_clear_next);
+	instance_create_depth(0, 0, 0, obj_clear_menu);
+
+	with (obj_mobile_button)
+	{
+		alarm[0] = 1;
+	}
 }
 
 

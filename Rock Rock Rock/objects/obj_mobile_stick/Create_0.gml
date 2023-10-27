@@ -4,6 +4,7 @@ image_alpha = 0;
 
 is_active	= false;
 m_index		= 0;
+index_alp	= 0.5;
 
 point_x = x;
 

@@ -3,6 +3,6 @@
 draw_sprite_ext(sprite_index, image_index, x, y, 1, 1, 0, index_col, 1);
 draw_set_font(f_basic);
 draw_set_color(index_col);
-draw_text(x, y, stage_index);
+draw_text(x, y, stage_index+1);
 
 

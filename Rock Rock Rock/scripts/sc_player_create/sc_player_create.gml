@@ -12,4 +12,5 @@ function sc_player_create()
 	
 	act_index	= 1;
 	process		= 0;
+	can_jump	= false;
 }

@@ -4,3 +4,8 @@ with (obj_player_head)
 {
 	image_index = other.image_index;
 }
+
+if (sc_input(3, 1))
+{
+	sc_player_throw();
+}

@@ -9,7 +9,7 @@ if (is_clear)
 	
 	draw_set_color(c_white);
 	draw_set_alpha(1);
-	draw_sprite(spr_stage_clear, 0, uc_get_view_width()/2, 120);
+	draw_sprite(spr_stage_clear, 0, uc_get_view_width()/2, uc_get_view_height() - 240);
 }
 
 
