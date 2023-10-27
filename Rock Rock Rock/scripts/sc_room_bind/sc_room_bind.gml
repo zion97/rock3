@@ -5,5 +5,7 @@ function sc_room_bind()
 	global.index_room		= array_create(50);
 	
 	global.index_room[0]	= rm_stage01_01;
-	global.index_room[1]	= rm_test;
+	global.index_room[1]	= rm_stage01_02;
+	global.index_room[2]	= rm_stage01_03;
+	global.index_room[3]	= rm_stage01_04;
 }
