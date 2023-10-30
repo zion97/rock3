@@ -21,6 +21,8 @@ else
 			sc_mob_die();
 		}
 		is_head = 0;
+		act_index			= 1;
+		timeline_position	= 500;
 		with (obj_player_head)
 		{
 			visible = false;
