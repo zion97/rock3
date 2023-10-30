@@ -1,1 +1,1 @@
-room_goto(global.room_buffer);
+os_set_orientation_lock(true, false);
