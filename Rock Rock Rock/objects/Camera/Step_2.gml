@@ -16,8 +16,8 @@ switch (cam_mode) {
 	// Static mode will make the camera stay still.
 	case CMODE.STATIC:
 		// Once the target has been calculate approach the camera X and Y coordinates up to the desired point.
-		x = uc_fixed_lerp(x, target_x, cam_static_acceleration);
-		y = uc_fixed_lerp(y, target_y, cam_static_acceleration);
+		x = lerp(x, target_x, cam_static_acceleration);
+		y = lerp(y, target_y, cam_static_acceleration);
 		
 		break; #endregion
 
@@ -254,17 +254,17 @@ switch (cam_mode) {
 // ------------------------------ View Scale and Auto-Scale -------------------------------
 
 // Approach the camera to the target scale.
-view_scale = uc_fixed_lerp(view_scale, view_scale_target, view_scale_acceleration);
+view_scale = lerp(view_scale, view_scale_target, view_scale_acceleration);
 
 // Calculate the auto scaling.
 var target_auto_view_scale = view_auto_scale_enabled?clamp((1 + avg_dis_to_center*view_auto_scale_factor),view_scale_min_limit, view_scale_max_limit):1;
-view_auto_scale = uc_fixed_lerp(view_auto_scale, target_auto_view_scale, view_scale_acceleration);
+view_auto_scale = lerp(view_auto_scale, target_auto_view_scale, view_scale_acceleration);
 
 // Get the total multiplier
 view_total_scale = view_scale*view_auto_scale
 
 // ------------------------------------- Camera Rotation -------------------------------------
-view_inclination += uc_fixed_lerp(0, angle_difference(view_inclination_target, view_inclination), view_inclination_acceleration);
+view_inclination += lerp(0, angle_difference(view_inclination_target, view_inclination), view_inclination_acceleration);
 view_inclination = view_inclination%360;
 view_inclination_target = view_inclination_target%360;
 
