@@ -12,5 +12,8 @@ function sc_room_bind()
 	global.index_room[5]	= rm_stage01_06;
 	global.index_room[6]	= rm_stage01_07;
 	global.index_room[7]	= rm_stage01_08;
+	global.index_room[8]	= rm_stage01_09;
+	global.index_room[9]	= rm_stage01_10;
+	global.index_room[10]	= rm_stage01_11;
 }
 
