@@ -123,6 +123,7 @@
     {"name":"obj_stage_right","order":8,"path":"objects/obj_stage_right/obj_stage_right.yy",},
     {"name":"spr_slope","order":1,"path":"sprites/spr_slope/spr_slope.yy",},
     {"name":"obj_uls_collider","order":2,"path":"objects/obj_uls_collider/obj_uls_collider.yy",},
+    {"name":"obj_debug","order":13,"path":"objects/obj_debug/obj_debug.yy",},
     {"name":"sc_mob_patrol_slime","order":5,"path":"scripts/sc_mob_patrol_slime/sc_mob_patrol_slime.yy",},
     {"name":"spr_clear_next","order":8,"path":"sprites/spr_clear_next/spr_clear_next.yy",},
     {"name":"sc_vsls_load","order":2,"path":"scripts/sc_vsls_load/sc_vsls_load.yy",},

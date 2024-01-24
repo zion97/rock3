@@ -147,6 +147,7 @@
     {"id":{"name":"obj_stage_right","path":"objects/obj_stage_right/obj_stage_right.yy",},},
     {"id":{"name":"spr_slope","path":"sprites/spr_slope/spr_slope.yy",},},
     {"id":{"name":"obj_uls_collider","path":"objects/obj_uls_collider/obj_uls_collider.yy",},},
+    {"id":{"name":"obj_debug","path":"objects/obj_debug/obj_debug.yy",},},
     {"id":{"name":"sc_mob_patrol_slime","path":"scripts/sc_mob_patrol_slime/sc_mob_patrol_slime.yy",},},
     {"id":{"name":"spr_mob_slime_scissors1_die","path":"sprites/spr_mob_slime_scissors1_die/spr_mob_slime_scissors1_die.yy",},},
     {"id":{"name":"spr_clear_next","path":"sprites/spr_clear_next/spr_clear_next.yy",},},
