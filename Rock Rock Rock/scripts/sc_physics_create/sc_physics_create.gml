@@ -5,7 +5,7 @@ function sc_physics_create()
 	speed_x		= 0;
 	speed_y		= 0;
 	is_jump		= false;
-	dir			= 1;
+	dir			= image_xscale;
 	grav_index	= 0.2;
 	is_tile		= true;
 }
