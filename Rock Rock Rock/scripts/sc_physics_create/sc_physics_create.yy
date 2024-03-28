@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_physics_create",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "object setting",
-    "path": "folders/Scripts/object setting.yy",
+  "$GMScript":"",
+  "%Name":"sc_physics_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_physics_create",
+  "parent":{
+    "name":"object setting",
+    "path":"folders/Scripts/object setting.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

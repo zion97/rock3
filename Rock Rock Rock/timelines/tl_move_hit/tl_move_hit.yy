@@ -1,13 +1,15 @@
 {
-  "resourceType": "GMTimeline",
-  "resourceVersion": "1.0",
-  "name": "tl_move_hit",
-  "momentList": [
-    {"resourceType":"GMMoment","resourceVersion":"1.0","name":"","evnt":{"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},"moment":0,},
-    {"resourceType":"GMMoment","resourceVersion":"1.0","name":"","evnt":{"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":0,"isDnD":false,},"moment":10,},
+  "$GMTimeline":"",
+  "%Name":"tl_move_hit",
+  "momentList":[
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":0,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":10,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
   ],
-  "parent": {
-    "name": "Timelines",
-    "path": "folders/Timelines.yy",
+  "name":"tl_move_hit",
+  "parent":{
+    "name":"Timelines",
+    "path":"folders/Timelines.yy",
   },
+  "resourceType":"GMTimeline",
+  "resourceVersion":"2.0",
 }

@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
@@ -112,7 +112,7 @@
     {"name":"player timelines","order":3,"path":"folders/Timelines/player timelines.yy",},
     {"name":"terrain timelines","order":6,"path":"folders/Timelines/terrain timelines.yy",},
   ],
-  "ResourceOrderSettings": [
+  "ResourceOrderSettings":[
     {"name":"obj_ter_door","order":1,"path":"objects/obj_ter_door/obj_ter_door.yy",},
     {"name":"spr_scissors1_normal","order":2,"path":"sprites/spr_scissors1_normal/spr_scissors1_normal.yy",},
     {"name":"tl_mob_slime_down","order":2,"path":"timelines/tl_mob_slime_down/tl_mob_slime_down.yy",},

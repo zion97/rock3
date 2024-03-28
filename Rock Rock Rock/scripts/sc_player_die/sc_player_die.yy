@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "sc_player_die",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "player",
-    "path": "folders/Scripts/player.yy",
+  "$GMScript":"",
+  "%Name":"sc_player_die",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_player_die",
+  "parent":{
+    "name":"player",
+    "path":"folders/Scripts/player.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
