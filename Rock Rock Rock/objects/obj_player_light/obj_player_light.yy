@@ -8,7 +8,7 @@
   "managed":true,
   "name":"obj_player_light",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_uls_light","path":"objects/obj_uls_light/obj_uls_light.yy",},"propertyId":{"name":"light_initial_radius","path":"objects/obj_uls_light/obj_uls_light.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_uls_light","path":"objects/obj_uls_light/obj_uls_light.yy",},"propertyId":{"name":"light_initial_radius","path":"objects/obj_uls_light/obj_uls_light.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
   ],
   "parent":{
     "name":"player object",

@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_paper1",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_item_parent","path":"objects/obj_item_parent/obj_item_parent.yy",},"propertyId":{"name":"item_struct","path":"objects/obj_item_parent/obj_item_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.paper1_struct",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_item_parent","path":"objects/obj_item_parent/obj_item_parent.yy",},"propertyId":{"name":"item_struct","path":"objects/obj_item_parent/obj_item_parent.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.paper1_struct",},
   ],
   "parent":{
     "name":"head item",

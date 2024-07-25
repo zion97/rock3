@@ -5,9 +5,9 @@
   "managed":true,
   "name":"obj_torch",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_light_parent","path":"objects/obj_light_parent/obj_light_parent.yy",},"propertyId":{"name":"color_index","path":"objects/obj_light_parent/obj_light_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$1E7FBFFF",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_light_parent","path":"objects/obj_light_parent/obj_light_parent.yy",},"propertyId":{"name":"radious","path":"objects/obj_light_parent/obj_light_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_light_parent","path":"objects/obj_light_parent/obj_light_parent.yy",},"propertyId":{"name":"alpha_index","path":"objects/obj_light_parent/obj_light_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_light_parent","path":"objects/obj_light_parent/obj_light_parent.yy",},"propertyId":{"name":"color_index","path":"objects/obj_light_parent/obj_light_parent.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$1E7FBFFF",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_light_parent","path":"objects/obj_light_parent/obj_light_parent.yy",},"propertyId":{"name":"radious","path":"objects/obj_light_parent/obj_light_parent.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_light_parent","path":"objects/obj_light_parent/obj_light_parent.yy",},"propertyId":{"name":"alpha_index","path":"objects/obj_light_parent/obj_light_parent.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.3",},
   ],
   "parent":{
     "name":"terrain",

@@ -29,7 +29,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"light_initial_radius","filters":[
+    {"$GMObjectProperty":"v1","%Name":"light_initial_radius","filters":[
         "GMTileSet",
         "GMSprite",
         "GMSound",
@@ -40,8 +40,8 @@
         "GMTimeLine",
         "GMObject",
         "GMRoom",
-      ],"listItems":null,"multiselect":false,"name":"light_initial_radius","rangeEnabled":true,"rangeMax":512.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"320","varType":0,},
-    {"$GMObjectProperty":"","%Name":"light_animation","filters":[
+      ],"listItems":null,"multiselect":false,"name":"light_initial_radius","rangeEnabled":true,"rangeMax":512.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"320","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"light_animation","filters":[
         "GMTileSet",
         "GMSprite",
         "GMSound",
@@ -52,7 +52,7 @@
         "GMTimeLine",
         "GMObject",
         "GMRoom",
-      ],"listItems":null,"multiselect":false,"name":"light_animation","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
+      ],"listItems":null,"multiselect":false,"name":"light_animation","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -8,8 +8,8 @@
   "managed":true,
   "name":"obj_player",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_physics_parent","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"propertyId":{"name":"create_sc","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_player_create",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_physics_parent","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"propertyId":{"name":"step_sc","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_player_step",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_physics_parent","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"propertyId":{"name":"create_sc","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_player_create",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_physics_parent","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"propertyId":{"name":"step_sc","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_player_step",},
   ],
   "parent":{
     "name":"player object",

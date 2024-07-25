@@ -8,8 +8,8 @@
   "managed":true,
   "name":"obj_mob_parent",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_physics_parent","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"propertyId":{"name":"create_sc","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_mob_create",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_physics_parent","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"propertyId":{"name":"step_sc","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_mob_step",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_physics_parent","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"propertyId":{"name":"create_sc","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_mob_create",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_physics_parent","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"propertyId":{"name":"step_sc","path":"objects/obj_physics_parent/obj_physics_parent.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_mob_step",},
   ],
   "parent":{
     "name":"parent object",
@@ -33,8 +33,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"mob_sc","filters":[],"listItems":[],"multiselect":false,"name":"mob_sc","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sc_dummy","varType":5,},
-    {"$GMObjectProperty":"","%Name":"behave_sc","filters":[],"listItems":[],"multiselect":false,"name":"behave_sc","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sc_dummy","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"mob_sc","filters":[],"listItems":[],"multiselect":false,"name":"mob_sc","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sc_dummy","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"behave_sc","filters":[],"listItems":[],"multiselect":false,"name":"behave_sc","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sc_dummy","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

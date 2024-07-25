@@ -26,9 +26,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"radious","filters":[],"listItems":[],"multiselect":false,"name":"radious","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":1,},
-    {"$GMObjectProperty":"","%Name":"color_index","filters":[],"listItems":[],"multiselect":false,"name":"color_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":7,},
-    {"$GMObjectProperty":"","%Name":"alpha_index","filters":[],"listItems":[],"multiselect":false,"name":"alpha_index","rangeEnabled":true,"rangeMax":1.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"radious","filters":[],"listItems":[],"multiselect":false,"name":"radious","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"color_index","filters":[],"listItems":[],"multiselect":false,"name":"color_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":7,},
+    {"$GMObjectProperty":"v1","%Name":"alpha_index","filters":[],"listItems":[],"multiselect":false,"name":"alpha_index","rangeEnabled":true,"rangeMax":1.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -5,8 +5,8 @@
   "managed":true,
   "name":"obj_mob_scissors1",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_mob_parent","path":"objects/obj_mob_parent/obj_mob_parent.yy",},"propertyId":{"name":"mob_sc","path":"objects/obj_mob_parent/obj_mob_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_mob_scissors1_data",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_mob_parent","path":"objects/obj_mob_parent/obj_mob_parent.yy",},"propertyId":{"name":"behave_sc","path":"objects/obj_mob_parent/obj_mob_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_mob_patrol",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob_parent","path":"objects/obj_mob_parent/obj_mob_parent.yy",},"propertyId":{"name":"mob_sc","path":"objects/obj_mob_parent/obj_mob_parent.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_mob_scissors1_data",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob_parent","path":"objects/obj_mob_parent/obj_mob_parent.yy",},"propertyId":{"name":"behave_sc","path":"objects/obj_mob_parent/obj_mob_parent.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sc_mob_patrol",},
   ],
   "parent":{
     "name":"monster",
